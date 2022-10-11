@@ -4,8 +4,6 @@
 module com.azure.data.tables {
     requires transitive com.azure.core;
 
-    requires com.fasterxml.jackson.dataformat.xml;
-
     // public API surface area
     exports com.azure.data.tables;
     exports com.azure.data.tables.models;
